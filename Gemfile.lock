@@ -1,15 +1,3 @@
-PATH
-  remote: ../tddium
-  specs:
-    tddium (1.21.0)
-      github_api
-      highline
-      json
-      launchy
-      nayutaya-msgpack-pure (~> 0.0.2)
-      tddium_client (~> 0.4.2)
-      thor
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -163,6 +151,14 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (~> 2.8)
+    tddium (1.20.1)
+      github_api
+      highline
+      json
+      launchy
+      nayutaya-msgpack-pure (~> 0.0.2)
+      tddium_client (~> 0.4.2)
+      thor
     tddium_client (0.4.3)
       httpclient (>= 2.2.5)
       json
@@ -196,6 +192,6 @@ DEPENDENCIES
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spring
-  tddium!
+  tddium
   turbolinks
   uglifier (>= 1.3.0)
