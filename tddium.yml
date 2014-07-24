@@ -7,4 +7,8 @@
     :post_setup: bundle exec rake assets:precompile    # Runs once before tests and after worker_setup
     :post_build: bundle exec rake heroku:deploy # Runs once after entire build completes
   :test_pattern:                                
-    - spec/**_spec.rb 
+    - spec/**_spec.rb
+  :mysql:
+    :adapter: mysql2                      
+    :version: '5.5'                      
+    :encoding: utf8
