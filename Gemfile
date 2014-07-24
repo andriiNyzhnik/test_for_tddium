@@ -3,8 +3,9 @@ source 'https://rubygems.org'
 
 
 
-
-
+gem 'rspec'
+gem 'rspec-rails'
+gem 'database_cleaner'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 # Use mysql as the database for Active Record
